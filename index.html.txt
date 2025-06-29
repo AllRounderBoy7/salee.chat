@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Salee.talk – Real Chat</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Firebase Scripts -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+</head>
+<body>
+  <h1 style="text-align:center; margin-top:50px;">🔥 Welcome to Salee.talk 🔥</h1>
+  <p style="text-align:center;">Real-time chat system connected to Firebase.</p>
+  
+  <div id="app"></div>
+
+  <!-- Firebase & App Scripts -->
+  <script src="firebase-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
